@@ -5,6 +5,12 @@ default: start
 start:
 	docker-compose start
 
+stop:
+	docker-compose stop
+
+restart:
+	docker-compose restart
+
 pull:
 	docker-compose pull
 
