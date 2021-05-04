@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_blocks_paragraph_blocks",
+  "info": {
+    "name": "Paragraph Block",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
