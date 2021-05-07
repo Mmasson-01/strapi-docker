@@ -18,16 +18,8 @@
     },
     {
       "method": "GET",
-      "path": "/articles/:id",
+      "path": "/articles/:slug",
       "handler": "article.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/articles",
-      "handler": "article.create",
       "config": {
         "policies": []
       }
