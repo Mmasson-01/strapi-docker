@@ -15,7 +15,7 @@ services:
             DATABASE_PASSWORD: ${DATABASE_PASSWORD}
             ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
         volumes:
-            - ./app:/srv/app
+            - ../strapi-guide:/srv/app
         ports:
             - "1337:1337"
         networks:
